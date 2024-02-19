@@ -60,8 +60,10 @@
 }
 .container .banner1  p{
     font-weight: 500;
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 20px; 
+    color: gray;
+    line-height: 25px;
 }
  .button button{
    padding: 20px;
