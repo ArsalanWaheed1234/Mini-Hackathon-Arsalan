@@ -1,6 +1,100 @@
-
 *{
     font-family: "Roboto", sans-serif;
     }
+.bg{
+    background-image: url(./assets/images/bg_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: sticky;
+    top: 0; */
+    height: 600px;
+}
+.header{
+    padding: 5px;
+}
+.header1-left label{
+    color: gray;
+}
+.header1-left label a{
+    text-decoration: none;
+    color: black;
+}
+.header1-left{
+    padding-top: 5px;
+}
+.header1-right{
+    text-align: end;
+}
+.header1-right i{
+    padding: 10px 10px 10px 10px ;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: white;
+    font-size: 18px;
+}
+.head-logo{
+    font-size: 30px;
+}
+.header-2{
+    margin-top: 10px;
+    padding: 5px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+.header-2-right ul li{
+  text-align: right;
+}
+.btn{
+    border-radius: 0;
+    padding: 10px;
+    border: none;
+    background-color:#fd4c82 ;
+    color: white;
+}
+.container .banner1  h1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.container .banner1  p{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 20px; 
+}
+ .button button{
+   padding: 20px;
+   border: none;
+   border-radius: 10px;
+   color: white;
 
 
+}
+.button .color1{
+    background-color: pink;
+
+}
+.button .color2{
+    background-color: yellow;
+    font-weight: 300;
+}
+.footer-end{
+    margin-top: 20px;
+}
+.footer-end ul li h5{
+font-weight: 800;
+}
+.footer-end .list ul li{
+    list-style: none;
+    font-size: medium;
+    padding: 3px;
+  }
+  .logo{
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background-color: #fd4c82;
+    margin-left: 5px;
+  }
