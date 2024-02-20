@@ -25,13 +25,18 @@
 .header1-right{
     text-align: end;
 }
-.header1-right i{
-    padding: 10px 10px 10px 10px ;
-    width: 35px;
-    height: 35px;
+.header1-right a i{
+    padding: 6px 6px 6px 6px ;
+    /* width: 35px;
+    height: 35px; */
     border-radius: 100%;
     background-color: white;
-    font-size: 18px;
+    font-size: 20px;
+    color: black;
+}
+.header1-right a i:hover{
+    color: white;
+    background-color:#fd4c82 ;
 }
 .head-icon{
     font-weight: 600;
@@ -46,12 +51,13 @@
     position: sticky;
     top: 0;
 }
-.header-2-right ul li{
-  text-align: right;
+.header-2 ul li a{
+    font-weight: 700;
+
 }
 .btn{
     border-radius: 0;
-    padding: 10px;
+    padding: 15px;
     border: none;
     background-color:#fd4c82 ;
     color: white;
@@ -69,31 +75,42 @@
     line-height: 25px;
 }
  .button button{
+
    padding: 20px;
    border: none;
    border-radius: 10px;
    color: white;
-
-
 }
 .button .color1{
-    background-color: pink;
-
+    background-color:#fd4c82;
+    font-weight:500;
 }
 .button .color2{
-    background-color: yellow;
-    font-weight: 300;
+    width: 200px;
+    background-color:#28a745;
+    border: 3px solid rgb(212, 202, 202);
+    font-weight: 700;
+}
+.button .color2:hover{
+    background-color: unset;
+    border: 3px solid rgb(212, 202, 202);
+    color: #28a745;
 }
 .footer-end{
     margin-top: 20px;
 }
+.footer-end .list ul li{
+    list-style-type: none;
+    font-size: medium;
+    padding: 5px;
+  }
 .footer-end ul li h5{
 font-weight: 800;
 }
-.footer-end .list ul li{
-    list-style: none;
-    font-size: medium;
-    padding: 3px;
+
+  .footer-end .list ul li i{
+    color: #fd4c82;
+    padding: 5px;
   }
   .logo{
     font-size: 20px;
